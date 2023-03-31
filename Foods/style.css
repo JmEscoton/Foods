@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #fff;
+  min-height: 200vh;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo{
+  position: relative;
+  font-weight: 700px;
+  color: tomato;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: bold;
+  margin: 20px;
+}
+
+header ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li{
+  position: relative;
+  list-style: none;
+}
+
+header ul li a{
+  position: relative;
+  margin: 0 20px;
+  text-decoration: none;
+  color: #000;
+  word-spacing: 5px;
+  font-weight: 500px;
+  border-radius: 10px;
+}
+
+header ul li a:hover{
+  padding: 5px;
+  background-color: gray;
+  transition: 0.5s;
+}
+
+.main-home h1{
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  color: tomato;
+  font-family: 'Oswald', sans-serif;
+}
+
+.main-about img{
+  position: absolute;
+  top: 133%;
+  left: 15%;
+}
+
+.main-about h1{
+  text-align: center;
+  margin-top: 7%;
+  font-size: 30px;
+  color: tomato;
+  font-family: 'Oswald', sans-serif;
+}
+
+.main-about p{
+  position: absolute;
+  top: 140%;
+  left: 48%;
+  right: 10%;
+}
+
+.about img{
+ position: absolute;
+ top: 170%;
+ left: 70%;
+}
+
+.about1 img{
+  position: absolute;
+  top: 170%;
+  left: 43%;
+}
+
+.about2 img{
+  position: absolute;
+  top: 170%;
+  left: 15%;
+}
+
+.main-contact img{
+  position: absolute;
+  top: 210%;
+}
+
+.main-contact h1{
+  position: absolute;
+  top: 220%;
+  left: 65%;
+  color: tomato;
+  font-family: 'Oswald', sans-serif;
+}
+
+.main-contact label{
+  position: absolute;
+  top: 241%;
+  color: #fff;
+  left: 58%;
+  font-size: 20px;
+}
+
+.main-contact input{
+  position: absolute;
+  top: 240%;
+  left: 67%;
+  width: 15%;
+  height: 5%;
+  border-radius: 10px;
+}
+
+.contact1 label{
+  position: absolute;
+  top: 251%;
+  color: #fff;
+  left: 58%;
+  font-size: 20px;
+}
+
+.contact1 input{
+  position: absolute;
+  top: 250%;
+  left: 67%;
+  width: 15%;
+  height: 5%;
+  border-radius: 10px;
+}
+
+.button1 button{
+  position: absolute;
+  top: 260%;
+  left: 67%;
+  width: 15%;
+  height: 5%;
+  background-color: orange;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button1 button:hover{
+  background-color: tomato;
+}
+
+.main-footer{
+  background-color: gray;
+}
+
+.main-footer h2{
+  position: absolute;
+  top: 305%;
+  left: 38%;
+  font-size: 30px;
+  margin-top: 5%;
+}
